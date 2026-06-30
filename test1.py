@@ -15,7 +15,7 @@ parser.add_argument("--batch_size", type=int, default=256, help="Batch size for 
 #parser.add_argument("--teacher_path", type=str, default="", help="Teacher model path")
 #parser.add_argument("--student_out_dir", type=str, default="", help="Student output path")
 parser.add_argument("--teacher_path", type=str, default="gpt2", help="Teacher model path")
-parser.add_argument("--student_out_dir", type=str, default="outputs/students", help="Student output path")
+parser.add_argument("--student_out_dir", type=str, default="out2/students", help="Student output path")
 args = parser.parse_args()
 
 teacher_temperature = args.teacher_temperature
